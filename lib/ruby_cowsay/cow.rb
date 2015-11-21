@@ -22,6 +22,9 @@ class Cow
   def initialize(options={})
     @cow_type = Cow.cows.include?(options[:cow]) ? options[:cow] : 'default'
     @cow_template = Object.const_get("#{@cow_type.gsub('-','').capitalize}Template").new
+    class << @cow_template
+      attr_accessor :eyes, :tongue, :thoughts, :border
+    end
     @face_type = Cow.faces.include?(options[:face_type]) ? options[:face_type] : 'default'
     set_eyes_and_tongue!
   end
