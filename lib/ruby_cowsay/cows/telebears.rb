@@ -1,4 +1,4 @@
-module CowTemplate
+class TelebearsTemplate
 
   def render_cow
     _ = <<COW
