@@ -1,7 +1,7 @@
 class BeavisTemplate
 
   def render_cow
-    _ = <<COW
+    <<COW
    #{@thoughts}         __------~~-,
     #{@thoughts}      ,'            ,
           /               \\
