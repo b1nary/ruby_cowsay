@@ -1,6 +1,6 @@
 require 'ruby_cowsay/cow'
 require 'ruby_cowsay/cows/default'
-require 'ruby_cowsay/cows/beaves'
+require 'ruby_cowsay/cows/beavis'
 require 'ruby_cowsay/cows/bong'
 require 'ruby_cowsay/cows/bud-frogs'
 require 'ruby_cowsay/cows/bunny'
