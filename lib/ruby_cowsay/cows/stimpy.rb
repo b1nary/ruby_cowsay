@@ -1,4 +1,4 @@
-module CowTemplate
+class StimpyTemplate
 
   def render_cow
     _ = <<COW
