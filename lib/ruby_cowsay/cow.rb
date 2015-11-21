@@ -21,19 +21,17 @@ class Cow
   
   def initialize(options={})
     @cow_type = Cow.cows.include?(options[:cow]) ? options[:cow] : 'default'
-    require "#{File.expand_path(File.dirname(__FILE__))}/cows/#{@cow_type}"
-    Cow.remove_module(CowTemplate) if defined? CowTemplate
-    Cow.class_eval 'include CowTemplate'
+    @cow_template = Object.const_get("#{@cow_type.capitalize}Template").new
     @face_type = Cow.faces.include?(options[:face_type]) ? options[:face_type] : 'default'
     set_eyes_and_tongue!
   end
   
   def say(message, balloon_type = 'say')
-    construct_balloon(message, balloon_type) + "\n" + render_cow
+    construct_balloon(message, balloon_type) + "\n" + @cow_template.render_cow
   end
   
   def think(message)
-    construct_balloon(message, 'think') + "\n" + render_cow
+    construct_balloon(message, 'think') + "\n" + @cow_template.render_cow
   end
   
   def set_eyes_and_tongue!
@@ -142,10 +140,6 @@ class Cow
       lines << word.slice!(0..(MAX_LINE_LENGTH - 1))
     end
     return lines.compact
-  end
-  
-  def self.remove_module(m)
-    m.instance_methods.each{|m| undef_method(m)}
   end
   
 end
