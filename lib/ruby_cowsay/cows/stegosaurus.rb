@@ -1,4 +1,4 @@
-module CowTemplate
+class StegosaurusTemplate
 
   def render_cow
     _ = <<COW
