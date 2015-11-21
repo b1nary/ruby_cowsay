@@ -1,4 +1,4 @@
-module CowTemplate
+class EyesTemplate
 
   def render_cow
     _ = <<COW
