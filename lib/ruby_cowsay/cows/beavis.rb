@@ -1,4 +1,4 @@
-module BeavisTemplate
+class BeavisTemplate
 
   def render_cow
     _ = <<COW
