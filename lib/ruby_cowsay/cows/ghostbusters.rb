@@ -1,4 +1,4 @@
-module CowTemplate
+class GhostbustersTemplate
 
   def render_cow
     _ = <<COW
