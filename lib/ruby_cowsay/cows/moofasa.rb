@@ -1,4 +1,4 @@
-module CowTemplate
+class MoofasaTemplate
 
   def render_cow
     _ = <<COW
