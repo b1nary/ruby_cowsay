@@ -1,4 +1,4 @@
-module CowTemplate
+class HeadinTemplate
 
   def render_cow
     _ = <<COW
