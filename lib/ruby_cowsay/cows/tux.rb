@@ -1,4 +1,4 @@
-module CowTemplate
+class TuxTemplate
 
   def render_cow
     _ = <<COW
