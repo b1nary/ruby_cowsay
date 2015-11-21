@@ -22,6 +22,7 @@ class Cow
   def initialize(options={})
     @cow_type = Cow.cows.include?(options[:cow]) ? options[:cow] : 'default'
     require "#{File.expand_path(File.dirname(__FILE__))}/cows/#{@cow_type}"
+    Cow.remove_module(CowTemplate) if defined? CowTemplate
     Cow.class_eval 'include CowTemplate'
     @face_type = Cow.faces.include?(options[:face_type]) ? options[:face_type] : 'default'
     set_eyes_and_tongue!
@@ -141,6 +142,10 @@ class Cow
       lines << word.slice!(0..(MAX_LINE_LENGTH - 1))
     end
     return lines.compact
+  end
+  
+  def self.remove_module(m)
+    m.instance_methods.each{|m| undef_method(m)}
   end
   
 end
