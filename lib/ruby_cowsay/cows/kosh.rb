@@ -1,4 +1,4 @@
-module CowTemplate
+class KoshTemplate
 
   def render_cow
     _ = <<COW
