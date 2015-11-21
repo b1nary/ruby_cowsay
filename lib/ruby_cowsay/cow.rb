@@ -22,15 +22,12 @@ class Cow
   def initialize(options={})
     @cow_type = Cow.cows.include?(options[:cow]) ? options[:cow] : 'default'
     @cow_template = Object.const_get("#{@cow_type.gsub('-','').capitalize}Template").new
-    class << @cow_template
-      attr_accessor :eyes, :tongue, :thoughts, :border
-    end
     @face_type = Cow.faces.include?(options[:face_type]) ? options[:face_type] : 'default'
     set_eyes_and_tongue!
   end
   
   def say(message, balloon_type = 'say')
-    construct_balloon(message, balloon_type) + "\n" + @cow_template.render_cow
+    construct_balloon(message, balloon_type) + "\n" + @cow_template.render_cow.gsub('[t]', @thoughts).gsub('[e]', @eyes).gsub('[U]', @tongue)
   end
   
   def think(message)
