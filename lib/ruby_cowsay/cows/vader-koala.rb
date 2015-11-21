@@ -1,4 +1,4 @@
-module CowTemplate
+class VaderkoalaTemplate
 
   def render_cow
     _ = <<COW
