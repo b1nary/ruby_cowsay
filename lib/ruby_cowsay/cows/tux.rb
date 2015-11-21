@@ -2,8 +2,8 @@ class TuxTemplate
 
   def render_cow
     _ = <<COW
-   #{@thoughts}
-    #{@thoughts}
+   [t]
+    [t]
         .--.
        |o_o |
        |:_/ |

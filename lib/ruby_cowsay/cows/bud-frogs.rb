@@ -2,8 +2,8 @@ class BudfrogsTemplate
 
   def render_cow
     _ = <<COW
-     #{@thoughts}
-      #{@thoughts}
+     [t]
+      [t]
           oO)-.                       .-(Oo
          /__  _\\                     /_  __\\
          \\  \\(  |     ()~()         |  )/  /

@@ -2,10 +2,10 @@ class SmallTemplate
 
   def render_cow
     _ = <<COW
-       #{@thoughts}   ,__,
-        #{@thoughts}  (#{@eyes})____
+       [t]   ,__,
+        [t]  ([e])____
            (__)    )\\
-            #{@tongue}||--|| *
+            [U]||--|| *
 
 COW
   end

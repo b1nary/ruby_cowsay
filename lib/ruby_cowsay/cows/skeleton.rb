@@ -2,9 +2,9 @@ class SkeletonTemplate
 
   def render_cow
     _ = <<COW
-          #{@thoughts}      (__)      
-           #{@thoughts}     /#{@eyes}|  
-            #{@thoughts}   (_"_)*+++++++++*
+          [t]      (__)      
+           [t]     /[e]|  
+            [t]   (_"_)*+++++++++*
                    //I#\\\\\\\\\\\\\\\\I\\
                    I[I|I|||||I I `
                    I`I'///'' I I

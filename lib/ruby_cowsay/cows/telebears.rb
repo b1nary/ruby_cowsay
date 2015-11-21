@@ -2,12 +2,12 @@ class TelebearsTemplate
 
   def render_cow
     _ = <<COW
-      #{@thoughts}                _
-       #{@thoughts}              (_)   <-- TeleBEARS
-        #{@thoughts}   ^__^       / \\
-         #{@thoughts}  (#{@eyes})\\_____/_\\ \\
+      [t]                _
+       [t]              (_)   <-- TeleBEARS
+        [t]   ^__^       / \\
+         [t]  ([e])\\_____/_\\ \\
             (__)\\  you  ) /
-             #{@tongue} ||----w ((
+             [U] ||----w ((
                 ||     ||>> 
 
 COW

@@ -2,8 +2,8 @@ class KissTemplate
 
   def render_cow
     _ = <<COW
-     #{@thoughts}
-      #{@thoughts}
+     [t]
+      [t]
              ,;;;;;;;,
             ;;;;;;;;;;;,
            ;;;;;'_____;'

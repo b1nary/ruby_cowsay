@@ -2,8 +2,8 @@ class ElephantTemplate
 
   def render_cow
     _ = <<COW
- #{@thoughts}     /\\  ___  /\\
-  #{@thoughts}   // \\/   \\/ \\\\
+ [t]     /\\  ___  /\\
+  [t]   // \\/   \\/ \\\\
      ((    O O    ))
       \\\\ /     \\ //
        \\/  | |  \\/ 

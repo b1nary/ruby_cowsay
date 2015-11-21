@@ -2,10 +2,10 @@ class MoofasaTemplate
 
   def render_cow
     _ = <<COW
-       #{@thoughts}    ____
-        #{@thoughts}  /    \\
+       [t]    ____
+        [t]  /    \\
           | ^__^ |
-          | (#{@eyes}) |______
+          | ([e]) |______
           | (__) |      )\\/\\
            \\____/|----w |
                 ||     ||

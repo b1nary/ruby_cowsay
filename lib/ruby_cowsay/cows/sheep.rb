@@ -2,10 +2,10 @@ class SheepTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}
-   #{@thoughts}
+  [t]
+   [t]
        __     
-      U#{@eyes}U\\.'\@\@\@\@\@\@`.
+      U[e]U\\.'\@\@\@\@\@\@`.
       \\__/(\@\@\@\@\@\@\@\@\@\@)
            (\@\@\@\@\@\@\@\@)
            `YY~~~~YY'

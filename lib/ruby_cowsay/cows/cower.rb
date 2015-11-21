@@ -2,8 +2,8 @@ class CowerTemplate
 
   def render_cow
     _ = <<COW
-     #{@thoughts}
-      #{@thoughts}
+     [t]
+      [t]
         ,__, |    | 
         (oo)\\|    |___
         (__)\\|    |   )\\_

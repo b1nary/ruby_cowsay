@@ -2,10 +2,10 @@ class StegosaurusTemplate
 
   def render_cow
     _ = <<COW
-#{@thoughts}                             .       .
- #{@thoughts}                           / `.   .' " 
-  #{@thoughts}                  .---.  <    > <    >  .---.
-   #{@thoughts}                 |    \\  \\ - ~ ~ - /  /    |
+[t]                             .       .
+ [t]                           / `.   .' " 
+  [t]                  .---.  <    > <    >  .---.
+   [t]                 |    \\  \\ - ~ ~ - /  /    |
          _____          ..-~             ~-..-~
         |     |   \\~~~\\.'                    `./~~~/
        ---------   \\__/                        \\__/

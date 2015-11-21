@@ -2,12 +2,12 @@ class MooseTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}
-   #{@thoughts}   \\_\\_    _/_/
-    #{@thoughts}      \\__/
-           (#{@eyes})\\_______
+  [t]
+   [t]   \\_\\_    _/_/
+    [t]      \\__/
+           ([e])\\_______
            (__)\\       )\\/\\
-            #{@tongue} ||----w |
+            [U] ||----w |
                ||     ||
 
 COW

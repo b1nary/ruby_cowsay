@@ -2,8 +2,8 @@ class SatanicTemplate
 
   def render_cow
     _ = <<COW
-     #{@thoughts}
-      #{@thoughts}  (__)  
+     [t]
+      [t]  (__)  
          (\\/)  
   /-------\\/    
  / | 666 ||    

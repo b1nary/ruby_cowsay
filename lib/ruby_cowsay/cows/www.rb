@@ -2,10 +2,10 @@ class WwwTemplate
 
   def render_cow
     _ = <<COW
-        #{@thoughts}   ^__^
-         #{@thoughts}  (#{@eyes})\\_______
+        [t]   ^__^
+         [t]  ([e])\\_______
             (__)\\       )\\/\\
-             #{@tongue} ||--WWW |
+             [U] ||--WWW |
                 ||     ||
 
 COW

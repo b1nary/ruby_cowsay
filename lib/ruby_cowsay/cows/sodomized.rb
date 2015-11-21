@@ -2,12 +2,12 @@ class SodomizedTemplate
 
   def render_cow
     _ = <<COW
-      #{@thoughts}                _
-       #{@thoughts}              (_)
-        #{@thoughts}   ^__^       / \\
-         #{@thoughts}  (#{@eyes})\\_____/_\\ \\
+      [t]                _
+       [t]              (_)
+        [t]   ^__^       / \\
+         [t]  ([e])\\_____/_\\ \\
             (__)\\       ) /
-             #{@tongue} ||----w ((
+             [U] ||----w ((
                 ||     ||>> 
 
 COW

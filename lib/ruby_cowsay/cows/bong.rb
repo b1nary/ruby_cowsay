@@ -2,10 +2,10 @@ class BongTemplate
 
   def render_cow
     _ = <<COW
-         #{@thoughts}
-          #{@thoughts}
+         [t]
+          [t]
             ^__^ 
-    _______/(#{@eyes})
+    _______/([e])
 /\\/(       /(__)
    | W----|| |~|
    ||     || |~|  ~~

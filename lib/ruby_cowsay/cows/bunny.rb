@@ -2,8 +2,8 @@ class BunnyTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}
-   #{@thoughts}   \\
+  [t]
+   [t]   \\
         \\ /\\
         ( )
       .( o ).

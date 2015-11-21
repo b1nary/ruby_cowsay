@@ -2,9 +2,9 @@ class GhostbustersTemplate
 
   def render_cow
     _ = <<COW
-          #{@thoughts}
-           #{@thoughts}
-            #{@thoughts}          __---__
+          [t]
+           [t]
+            [t]          __---__
                     _-       /--______
                __--( /     \\ )XXXXXXXXXXX\\v.
              .-XXX(   O   O  )XXXXXXXXXXXXXXX-

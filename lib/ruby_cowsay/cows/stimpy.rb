@@ -2,8 +2,8 @@ class StimpyTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}     .    _  .    
-   #{@thoughts}    |\\_|/__/|    
+  [t]     .    _  .    
+   [t]    |\\_|/__/|    
        / / \\/ \\  \\  
       /__|O||O|__ \\ 
      |/_ \\_/\\_/ _\\ |  

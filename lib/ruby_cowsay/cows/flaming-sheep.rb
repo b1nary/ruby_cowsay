@@ -2,12 +2,12 @@ class FlamingsheepTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}            .    .     .   
-   #{@thoughts}      .  . .     `  ,     
-    #{@thoughts}    .; .  : .' :  :  : . 
-     #{@thoughts}   i..`: i` i.i.,i  i . 
-      #{@thoughts}   `,--.|i |i|ii|ii|i: 
-           U#{@eyes}U\\.'\@\@\@\@\@\@`.||' 
+  [t]            .    .     .   
+   [t]      .  . .     `  ,     
+    [t]    .; .  : .' :  :  : . 
+     [t]   i..`: i` i.i.,i  i . 
+      [t]   `,--.|i |i|ii|ii|i: 
+           U[e]U\\.'\@\@\@\@\@\@`.||' 
            \\__/(\@\@\@\@\@\@\@\@\@\@)'  
                 (\@\@\@\@\@\@\@\@)    
                 `YY~~~~YY'    

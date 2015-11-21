@@ -2,10 +2,10 @@ class DefaultTemplate
   
   def render_cow
     _ = <<COW
-      #{@thoughts}   ^__^
-       #{@thoughts}  (#{@eyes})\\_______
+      [t]   ^__^
+       [t]  ([e])\\_______
           (__)\\       )\\/\\
-           #{@tongue} ||----w |
+           [U] ||----w |
               ||     ||
 COW
   end

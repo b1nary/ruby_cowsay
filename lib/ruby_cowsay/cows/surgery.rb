@@ -2,10 +2,10 @@ class SurgeryTemplate
 
   def render_cow
     _ = <<COW
-          #{@thoughts}           \\  / 
-           #{@thoughts}           \\/  
+          [t]           \\  / 
+           [t]           \\/  
                (__)    /\\         
-               (#{@eyes})   O  O        
+               ([e])   O  O        
                _\\/_   //         
          *    (    ) //       
           \\  (\\\\    //       

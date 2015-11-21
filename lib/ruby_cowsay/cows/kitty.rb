@@ -2,8 +2,8 @@ class KittyTemplate
 
   def render_cow
     _ = <<COW
-     #{@thoughts}
-      #{@thoughts}
+     [t]
+      [t]
        ("`-'  '-/") .___..--' ' "`-._
          ` *_ *  )    `-.   (      ) .`-.__. `)
          (_Y_.) ' ._   )   `._` ;  `` -. .-'

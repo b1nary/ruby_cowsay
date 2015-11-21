@@ -2,9 +2,9 @@ class DaemonTemplate
 
   def render_cow
     _ = <<COW
-   #{@thoughts}         ,        ,
-    #{@thoughts}       /(        )`
-     #{@thoughts}      \\ \\___   / |
+   [t]         ,        ,
+    [t]       /(        )`
+     [t]      \\ \\___   / |
             /- _  `-/  '
            (/\\/ \\ \\   /\\
            / /   | `    \\

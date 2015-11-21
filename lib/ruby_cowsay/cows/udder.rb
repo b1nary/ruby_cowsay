@@ -2,11 +2,11 @@ class UdderTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}
-   #{@thoughts}    (__)               
-        #{@eyes}\\               
+  [t]
+   [t]    (__)               
+        [e]\\               
        ('') \\---------     
-        #{@tongue}\\           \\    
+        [U]\\           \\    
            |          |\\   
            ||---(  )_|| *  
            ||    UU  ||    

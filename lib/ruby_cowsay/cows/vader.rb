@@ -2,9 +2,9 @@ class VaderTemplate
 
   def render_cow
     _ = <<COW
-        #{@thoughts}    ,-^-.
-         #{@thoughts}   !oYo!
-          #{@thoughts} /./=\\.\\______
+        [t]    ,-^-.
+         [t]   !oYo!
+          [t] /./=\\.\\______
                ##        )\\/\\
                 ||-----w||
                 ||      ||

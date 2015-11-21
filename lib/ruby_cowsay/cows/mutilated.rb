@@ -2,11 +2,11 @@ class MutilatedTemplate
 
   def render_cow
     _ = <<COW
-       #{@thoughts}   \\_______
- v__v   #{@thoughts}  \\   O   )
- (#{@eyes})      ||----w |
+       [t]   \\_______
+ v__v   [t]  \\   O   )
+ ([e])      ||----w |
  (__)      ||     ||  \\/\\
-  #{@tongue}
+  [U]
 
 COW
   end

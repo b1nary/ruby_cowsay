@@ -2,10 +2,10 @@ class ThreeeyesTemplate
 
   def render_cow
     _ = <<COW
-        #{@thoughts}  ^___^
-         #{@thoughts} (#{@eyes})\\_______
+        [t]  ^___^
+         [t] ([e])\\_______
            (___)\\       )\\/\\
-            #{@tongue}  ||----w |
+            [U]  ||----w |
                 ||     ||
 
 COW

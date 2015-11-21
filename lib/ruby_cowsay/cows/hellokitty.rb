@@ -2,8 +2,8 @@ class HellokittyTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}
-   #{@thoughts}
+  [t]
+   [t]
       /\\_)o<
      |      \\
      | O . O|

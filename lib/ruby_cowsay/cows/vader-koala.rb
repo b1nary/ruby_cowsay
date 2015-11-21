@@ -2,8 +2,8 @@ class VaderkoalaTemplate
 
   def render_cow
     _ = <<COW
-   #{@thoughts}
-    #{@thoughts}        .
+   [t]
+    [t]        .
      .---.  //
     Y|o o|Y// 
    /_(i=i)K/ 

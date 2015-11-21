@@ -2,8 +2,8 @@ class MilkTemplate
 
   def render_cow
     _ = <<COW
- #{@thoughts}     ____________ 
-  #{@thoughts}    |__________|
+ [t]     ____________ 
+  [t]    |__________|
       /           /\\
      /           /  \\
     /___________/___/|

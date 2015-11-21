@@ -2,9 +2,9 @@ class KoshTemplate
 
   def render_cow
     _ = <<COW
-    #{@thoughts}
-     #{@thoughts}
-      #{@thoughts}
+    [t]
+     [t]
+      [t]
   ___       _____     ___
  /   \\     /    /|   /   \\
 |     |   /    / |  |     |

@@ -2,8 +2,8 @@ class RenTemplate
 
   def render_cow
     _ = <<COW
-   #{@thoughts}
-    #{@thoughts}
+   [t]
+    [t]
     ____  
    /# /_\\_
   |  |/o\\o\\

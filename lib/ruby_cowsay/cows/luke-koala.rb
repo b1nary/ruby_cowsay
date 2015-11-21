@@ -2,8 +2,8 @@ class LukekoalaTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}
-   #{@thoughts}          .
+  [t]
+   [t]          .
        ___   //
      {~._.~}// 
       ( Y )K/  

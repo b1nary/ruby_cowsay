@@ -2,10 +2,10 @@ class SupermilkerTemplate
 
   def render_cow
     _ = <<COW
-  #{@thoughts}   ^__^
-   #{@thoughts}  (#{@eyes})\\_______        ________
+  [t]   ^__^
+   [t]  ([e])\\_______        ________
       (__)\\       )\\/\\    |Super |
-       #{@tongue} ||----W |       |Milker|
+       [U] ||----W |       |Milker|
           ||    UDDDDDDDDD|______|
 
 COW
