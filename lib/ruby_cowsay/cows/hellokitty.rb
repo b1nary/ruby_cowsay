@@ -1,4 +1,4 @@
-module CowTemplate
+class HellokittyTemplate
 
   def render_cow
     _ = <<COW
