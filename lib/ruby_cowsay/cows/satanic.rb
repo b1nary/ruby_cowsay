@@ -1,4 +1,4 @@
-module CowTemplate
+class SatanicTemplate
 
   def render_cow
     _ = <<COW
