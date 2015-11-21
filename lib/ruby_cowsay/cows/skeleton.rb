@@ -1,4 +1,4 @@
-module CowTemplate
+class SkeletonTemplate
 
   def render_cow
     _ = <<COW
