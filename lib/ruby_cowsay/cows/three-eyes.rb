@@ -1,4 +1,4 @@
-module CowTemplate
+class ThreeeyesTemplate
 
   def render_cow
     _ = <<COW
